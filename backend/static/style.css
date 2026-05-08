@@ -28,6 +28,10 @@
     .sidebar ul {
       list-style: none;
     }
+    .sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
 
     .sidebar ul li {
       padding: 15px;
