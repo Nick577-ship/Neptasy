@@ -53,7 +53,7 @@ def get_horoscope(sign):
 def home():
     return render_template("index.html")
 
-@app.route("horoscope")
+@app.route("/horoscope")
 def horoscope():
     horoscopes = []
 
