@@ -11,10 +11,39 @@
 </head>
 
 <body class="bg-gray-950 text-white min-h-screen">
+    <h1 class="text-4xl font-bold">
+  <span class="inline-block animate-bounce text-pink-400">N</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:100ms]">e</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:200ms]">p</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:300ms]">t</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:400ms]">a</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:500ms]">s</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:600ms]">y</span></h1>
 
     <!-- Loading Screen -->
     <div id="loader"
          class="fixed inset-0 bg-black flex flex-col items-center justify-center z-50">
+         <h1 class="text-4xl font-bold">
+  <span class="inline-block animate-bounce text-pink-400">N</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:100ms]">e</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:200ms]">p</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:300ms]">t</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:400ms]">a</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:500ms]">s</span>
+  <span class="inline-block animate-bounce text-pink-400 [animation-delay:600ms]">y</span>
+
+  <span class="mx-2"></span>
+
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:700ms]">H</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:800ms]">o</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:900ms]">r</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:1000ms]">o</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:1100ms]">s</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:1200ms]">c</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:1300ms]">o</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:1400ms]">p</span>
+  <span class="inline-block animate-bounce text-purple-400 [animation-delay:1500ms]">e</span>
+</h1>
 
         <div class="animate-spin rounded-full h-20 w-20 border-t-4 border-pink-500 border-opacity-80">
         </div>
@@ -56,6 +85,9 @@
                 </div>
 
                 {% endfor %}
+                <a href="{{ url_for('home') }}" class="bg-gray-900 rounded-2xl p-6 shadow-lg border border-gray-800 hover:border-pink-500 transition">
+                    HomePage 
+                </a>
 
             </div>
 
